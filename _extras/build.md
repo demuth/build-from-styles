@@ -99,11 +99,15 @@ Once built, from a Terminal window, go to that directory to verify contents, and
 
 Most important is configuring the _config.yml file, checking that file the #FixME prompts. There are only a few.
 
-Before editing the other new files, use GitHub Desktop to commit your update, providing a Summary and optionally a Description of the changes, Commit to gh-pages using the blue button, then check for those on the GitHub site.
+Before editing the other new files, use GitHub Desktop to commit your update, providing a Summary and optionally a Description of the changes, Commit to gh-pages using the blue button, then select the Push Origin (blue button), then check for those on the GitHub site.
 
 GitHub can now auto-generate your .io.
 
 Go to About (upper right) and edit (select the gear), and select the URL checkbox, which will link your GitHub code page to the .io file for easy access.
+
+<a href="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image16.png">
+  <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image16.png" alt="Image 16" />
+</a>
 
 Edit index.md, setup.md, and README.md accordingly.
 
