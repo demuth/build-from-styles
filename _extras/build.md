@@ -68,7 +68,7 @@ follow the green New Repository tab in the top menu and select the green New rep
 except follow the Import a repository text link (https://github.com/new/import) 
 
 <a href="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image12.png">
-  <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image12.png" alt="Image 12" width="50%" height="auto" />
+  <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image12.png" alt="Image 12" width="745" height="183" />
 </a>
 
 to set up a new DUNE repository, here named computing-HWDB:
@@ -89,7 +89,26 @@ Once prepared, a link to your repo will be provided. Go to https://github.com/DU
   <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image14.png" alt="Image 14" />
 </a>
 
-Notice missing in the collection are both the configuration file _config.yml, and the index.md file. Also missing are setup.md, README.md. To generate the necessary configuratoin files it is best to retreat to your local development environment.
+The styles configuration requires that the default branch be the gh-pages branch, when built it is main, view this under the Settings tab, which opens in General
+
+<a href="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image11.png">
+  <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image11.png" alt="Image 11" />
+</a>
+
+The Default branch is changes from main to gh-pages using the dual direction button
+
+<a href="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image5.png">
+  <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image5.png" alt="Image 5" />
+</a>
+
+the result
+
+<a href="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image13.png">
+  <img src="{{ page.root }}/fig/Build-for-May-2024-DUNE-computing-HWDB-training-on-github/images/image13.png" alt="Image 13" />
+</a>
+
+
+Notice missing from the repository in the collection are both the configuration file _config.yml, and the index.md file. Also missing are setup.md, README.md. To generate the necessary configuratoin files it is best to retreat to your local development environment.
 
 Using the GitHub Desktop application (see install notes), build a local repository of the https://github.com/DUNE/computing-HWDB Under GitHub's File menu, select Clone Repository... 
 
@@ -99,7 +118,7 @@ Once built, from a Terminal window, go to that directory to verify contents, and
 
 Most important is configuring the _config.yml file, checking that file the #FixME prompts. There are only a few.
 
-Before editing the other new files, use GitHub Desktop to commit your update, providing a Summary and optionally a Description of the changes, Commit to gh-pages using the blue button, then select the Push Origin (blue button), then check for those on the GitHub site.
+Before editing the other new files, use GitHub Desktop to commit your update, providing a Summary and optionally a Description of the changes, Commit to gh-pages using the blue button, then select the Push origin (blue button), then check for those on the GitHub site.
 
 GitHub can now auto-generate your .io.
 
